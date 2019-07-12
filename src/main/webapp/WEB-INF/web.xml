@@ -74,7 +74,7 @@
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
-  <!--<filter>
+  <filter>
     <filter-name>loginFilter</filter-name>
     <filter-class>com.mmall.filter.LoginFilter</filter-class>
   </filter>
@@ -82,9 +82,9 @@
     <filter-name>loginFilter</filter-name>
     <url-pattern>/sys/*</url-pattern>
     <url-pattern>/admin/*</url-pattern>
-  </filter-mapping>-->
+  </filter-mapping>
 
-  <!--<filter>
+  <filter>
     <filter-name>aclControlFilter</filter-name>
     <filter-class>com.mmall.filter.AclControlFilter</filter-class>
     <init-param>
@@ -100,7 +100,7 @@
     <filter-name>aclControlFilter</filter-name>
     <url-pattern>/sys/*</url-pattern>
     <url-pattern>/admin/*</url-pattern>
-  </filter-mapping>-->
+  </filter-mapping>
 
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
